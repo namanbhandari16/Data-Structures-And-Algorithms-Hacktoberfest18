@@ -26,7 +26,7 @@ Heap *createHeap(size_t initialSize, HEAP_TYPE htype, void (*destroyData)(void *
   newHeap->lastPosition = NULL;
   newHeap->size = initialSize;
 
-  return newHeap;
+  return newHeap;     //hlllo
 }
 
 HeapNode *createHeapNode(void *data){

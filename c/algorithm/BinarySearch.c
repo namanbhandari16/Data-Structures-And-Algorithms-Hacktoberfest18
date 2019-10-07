@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int a[10],i,j,ch,large,f=0,small,mid;
+	int a[15],i,j,ch,large,f=0,small,mid;
 	for(i=0;i<10;i++)
 		scanf("%d",&a[i]);
 	scanf("%d",&ch);
